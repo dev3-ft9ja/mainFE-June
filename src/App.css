@@ -1,0 +1,1951 @@
+body {
+  font-family: Author !important;
+  margin-bottom: 123px;
+  background-color: #fafafa !important;
+}
+
+.addPadding {
+  padding: 0px 10px;
+}
+
+/* Login Page CSS*/
+.LoginBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LoginForum h1 {
+  text-align: center;
+}
+
+.LoginForum {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgb(29 67 83 / 10%);
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px 20px 20px;
+  width: 270px;
+  max-width: 500px;
+  margin-top: 10%;
+}
+
+.css-1642ya-MuiButtonBase-root-MuiButton-root {
+  font-size: 16px !important;
+}
+.css-1ckjrms-MuiButtonBase-root-MuiButton-root {
+  font-size: 16px !important;
+}
+
+.loginBtn {
+  color: black !important;
+}
+
+.loginBtn:hover {
+  background: white !important;
+}
+
+/* .loginBtn {
+} */
+/* Login Page CSS End*/
+
+input[type="date"] {
+  display: flex;
+  display: -webkit-flex;
+  flex: 1 0 0;
+  -webkit-flex: 1 0 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+* {
+  font-family: Author !important;
+}
+
+.App {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Author;
+  background-color: #fafafa;
+}
+
+.LogoImage:hover {
+  background: #fafafa !important;
+}
+
+.textLink {
+  color: black;
+}
+
+.textLink:hover {
+  background: white !important;
+  color: black;
+}
+
+.MobileContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.MobileMenu {
+  z-index: 202;
+  height: 230px;
+  width: 100%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  right: 0;
+  top: 90px;
+  background: rgb(250 250 250);
+  position: absolute;
+}
+
+.MobileMenuItems {
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.MMItem {
+  margin: 3px 20px !important;
+  padding: 10px 15px !important;
+  font-size: 16px !important;
+  color: black;
+}
+
+.MMItem:hover {
+  border-radius: 10px;
+  color: white;
+  background-color: #359602;
+}
+
+.MMItem1:hover {
+  border-radius: 10px;
+  color: white;
+  background-color: #359602;
+}
+
+.MMItemActive {
+  border-radius: 10px;
+  color: white !important;
+  background-color: #359602;
+}
+
+.MMItem1 {
+  margin: 3px 20px !important;
+  padding: 13px 15px !important;
+  font-size: 16px !important;
+  color: black;
+}
+
+.MobileMenuItems Link {
+  padding: 10px 0px !important;
+}
+
+.bgTransparent {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  filter: blur(1px);
+  transition-duration: 5s;
+  z-index: 20;
+  padding: 0px !important;
+  position: absolute;
+  background: #767676;
+  top: 90px;
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+
+.NavContainer {
+  height: 100px;
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.NavActive {
+  background: #359602;
+  color: white !important;
+}
+
+.TabGrp1 {
+  padding-top: 20px;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.css-neg4ut-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background-color: #0098ff36;
+  color: #000;
+}
+
+.NavImage {
+  width: 115px;
+  padding-top: 20px;
+}
+
+.Tab1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding: 8px 35px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(29, 67, 83, 0.05);
+  font-size: 16px !important;
+}
+
+.Tab1:hover {
+  color: white;
+}
+
+.Tab01 {
+  text-align: center;
+  line-height: 1.5;
+  color: black;
+  padding: 13.5px 35px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(29, 67, 83, 0.05);
+  font-size: 16px !important;
+}
+
+.Tab01:hover {
+  color: white;
+}
+
+.Tab2 {
+  height: 48px;
+  font-weight: bold;
+  /* min-width: calc(0.9vw + 5.4vh + 26.5vmin) !important; */
+  font-weight: 494 !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  color: #000;
+  text-transform: capitalize !important;
+}
+
+.Nav2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.BtnGrp2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.AccMenuGrp {
+  display: flex;
+  height: 35px !important;
+}
+
+.AccMenuBtn {
+  margin-bottom: 10px;
+  border-radius: 2px !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
+}
+
+.GetAccbtn {
+  padding: 5px 8px !important;
+  width: 178px !important;
+  height: 48px;
+  background-color: #1d4353 !important;
+  border-radius: 30px !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  text-transform: capitalize !important;
+  font-weight: bold !important;
+}
+
+.Accs {
+  max-width: 160px !important;
+  max-height: 46px !important;
+  width: 90% !important;
+  border-radius: 0px !important;
+  box-shadow: 0px 0px 5px rgba(29, 67, 83, 0.2);
+  font-size: 14px !important;
+  font-weight: 494 !important;
+}
+
+.MainGraph {
+  /* border: 2pt solid black;
+  height: min-content;
+  max-width: -webkit-fill-available;
+  width: 69%; */
+
+  /* ================= */
+
+  /* border: 2pt solid black;
+  height: min-content;
+  max-width: 920px;
+  width: 131%; */
+
+  /* ================== */
+  height: min-content;
+  min-height: 444px;
+  max-width: -webkit-fill-available;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(29, 67, 83, 0.1);
+}
+
+.MuiTabs-indicator {
+  display: none;
+}
+.AccBtn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 30px;
+  width: 17%;
+}
+.Accdetails {
+  border-radius: 5px;
+  align-items: center;
+  background-color: #fff;
+  margin-left: 1%;
+  width: calc(3.9vw + 6.4vh + 18.5vmin) !important;
+  max-width: inherit !important;
+  justify-content: flex-start;
+  align-content: center;
+  height: fit-content;
+  box-shadow: 0px 0px 4px rgba(10, 28, 0, 0.05);
+}
+.Dashboard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: non-wrap;
+}
+
+.AccText {
+  margin-left: 8%;
+  min-height: 33px;
+  font-weight: 545;
+  font-size: 14px !important;
+  line-height: 31px;
+}
+
+.AccHead {
+  background-color: #359602;
+  min-height: 44px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-height: 23px;
+  font-weight: 494;
+  font-size: 16px !important;
+  padding-top: 10px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.AccHead1 {
+  background-color: #359602;
+  min-height: 38px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-height: 23px;
+  font-weight: 494;
+  font-size: 20px !important;
+  padding-top: 10px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+.DashGraph {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-content: center;
+}
+.LineGraph2 {
+  max-width: 545px;
+  width: 50%;
+}
+.LineGraph3 {
+  max-width: 545px;
+  width: 50%;
+}
+.paystack-button {
+  cursor: pointer;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  background-color: #7ea5e0;
+  font-weight: bold;
+  color: #e0eafc;
+  border: none;
+  border-radius: 5px;
+  width: 30%;
+  height: 45px;
+  margin-top: 40px;
+}
+.BarGraph1 {
+  max-width: 350px;
+  width: 100%;
+}
+.Feedsection {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Datesection {
+  border: 1pt solid #1d4353;
+  max-width: -webkit-fill-available;
+  width: 68%;
+  /* width: calc(37rem + 20vw); */
+  /* width: calc(37rem + 7vw); */
+  place-self: center;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-height: 44px;
+}
+
+.Feed {
+  /* width: calc(37rem + 20vw); */
+  /* width: calc(37rem + 7vw); */
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 14px 0px rgb(29 67 83 / 10%);
+  /* box-shadow: 0px 15px 0px rgb(0 0 0); */
+}
+.FeedGraphs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  /* max-width: 99%; */
+  justify-content: space-evenly;
+}
+.FeedBarGraph {
+  max-width: 350px;
+  width: 50%;
+}
+
+.Accounts {
+  /* display: flex;
+  flex-wrap: wrap;
+  max-width: 930px !important; */
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: max-content;
+  width: -webkit-fill-available; */
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  max-width: -webkit-fill-available;
+  width: 100%;
+}
+
+#simple-tabpanel-0 {
+  max-width: -webkit-fill-available;
+  width: 100%;
+}
+#simple-tabpanel-1 {
+  max-width: -webkit-fill-available;
+  width: 100%;
+}
+#simple-tabpanel-2 {
+  max-width: -webkit-fill-available;
+  width: 100%;
+}
+
+.custom-tooltip {
+  line-height: 10%;
+  outline: 1px solid #82ca9d;
+  border-radius: 20pt;
+  padding: 1%;
+  width: calc(5rem + 5vw);
+  font-size: calc(0.4rem + 0.5vw) !important;
+}
+:focus-visible {
+  outline: 1px solid #82ca9d;
+  border-radius: 20pt;
+  padding: 1%;
+}
+.nodatabox {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  padding: 20px 15%;
+}
+
+.PayoutSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  margin-top: 6%;
+}
+.PayoutSection2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  margin-top: 6%;
+}
+.PayoutSection3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  margin-top: 6%;
+}
+.PayoutBoxlink {
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  height: 197px;
+  width: 50%;
+  font-weight: 375;
+  font-size: 16px;
+  line-height: calc(2.4rem + 0.5vw);
+  text-align: left;
+}
+.PayoutBoxlink1 {
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  height: 197px;
+  width: 44%;
+  font-weight: 375;
+  font-size: 11px;
+  line-height: calc(2.4rem + 0.5vw);
+}
+.PayoutBox {
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  width: 36%;
+  height: 197px;
+  font-weight: 375;
+  font-size: calc(0.5rem + 0.5vw);
+  line-height: calc(2.4rem + 0.5vw);
+}
+.Payoutbtn {
+  border: none;
+  height: 48px;
+  margin-left: 5%;
+  background-color: #359602;
+  color: white;
+  text-transform: none;
+}
+
+.MuiTablePagination-actions {
+  width: -webkit-fill-available;
+  text-align-last: right;
+}
+.Carousel {
+  width: 100%;
+  height: 466px;
+}
+.shareText {
+  font-family: "Author";
+  font-style: normal;
+  font-weight: 375;
+  font-size: 13px;
+  line-height: 146.5%;
+  width: 72%;
+  text-align: center;
+}
+.shareBtn {
+  width: 95px;
+  height: 38px;
+  background: #1d4353 !important;
+  border-radius: 3px !important;
+  font-family: Author !important;
+  font-style: normal !important;
+  font-weight: 494;
+  font-size: 14px;
+  line-height: 146.5% !important;
+  text-align: center;
+  color: #ffffff !important;
+}
+
+.pipcalc {
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+.pipcalc__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pipcalctexts h2 {
+  font-family: "Author";
+  width: 100%;
+  height: 27px;
+  font-weight: 494;
+  font-size: 28px !important;
+  line-height: 33px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.pipcalctexts {
+  width: 35%;
+  margin-top: 4%;
+}
+.pipcalctexts p {
+  font-family: "Author";
+  width: 100%;
+  font-style: normal;
+  font-weight: 375;
+  font-size: 16px;
+  line-height: 149.5%;
+  color: rgba(0, 0, 0, 0.9);
+}
+.pipcalcdevice {
+  box-sizing: border-box;
+  width: 34%;
+
+  margin-top: 6%;
+  background: #fefefe;
+  border: 0.3px solid rgba(53, 150, 2, 0.7);
+  box-shadow: 0px 0px 10px rgba(29, 67, 83, 0.2);
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+.deviceheader {
+  width: 100%;
+  background: #1d4353;
+  padding: 10px 0px;
+  border-radius: 10px 10px 0px 0px;
+  font-family: "Author";
+  font-style: normal;
+  font-weight: 494;
+  font-size: 16px;
+  line-height: 210%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.calcform {
+  margin-left: 10% !important;
+  margin-top: 5% !important;
+  width: 80%;
+}
+.labelsigh {
+  display: flex;
+  font-size: 16px;
+  padding-bottom: 4px;
+  align-items: center;
+}
+.pipcalcinfo1 {
+  width: 5% !important;
+  margin-left: 1%;
+}
+.pipcalcinfo2 {
+  width: 5% !important;
+  margin-left: 1%;
+}
+.pipcalcinfo3 {
+  width: 5% !important;
+  margin-left: 1%;
+}
+.pipcalcinfo4 {
+  width: 5% !important;
+  margin-left: 1%;
+}
+.pipcalcinfo5 {
+  width: 5% !important;
+  margin-left: 1%;
+}
+.pipcalcinfoicon {
+  width: 100% !important;
+  vertical-align: bottom;
+}
+.tooltiptext1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 28%;
+  margin-left: -60px;
+}
+.tooltiptext2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 85%;
+  left: 30%;
+  margin-left: -60px;
+}
+.tooltiptext3 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 69%;
+  left: 34%;
+  margin-left: -60px;
+}
+.tooltiptext4 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 55%;
+  left: 35%;
+  margin-left: -60px;
+}
+.tooltiptext5 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 46%;
+  left: 45%;
+  margin-left: -60px;
+}
+.pipcalcinfo1:hover .tooltiptext1 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo2:hover .tooltiptext2 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo3:hover .tooltiptext3 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo4:hover .tooltiptext4 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo5:hover .tooltiptext5 {
+  visibility: visible;
+  cursor: pointer;
+}
+
+.talenttooltiptext1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 28%;
+  margin-left: -60px;
+}
+.talenttooltiptext2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 85%;
+  left: 38%;
+  margin-left: -60px;
+}
+.talenttooltiptext3 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 69%;
+  left: 19%;
+  margin-left: -60px;
+}
+.talenttooltiptext4 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 54%;
+  left: 21%;
+  margin-left: -60px;
+}
+.talenttooltiptext5 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 46%;
+  left: 45%;
+  margin-left: -60px;
+}
+
+.pipcalcinfo1:hover .talenttooltiptext1 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo2:hover .talenttooltiptext2 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo3:hover .talenttooltiptext3 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo4:hover .talenttooltiptext4 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo5:hover .talenttooltiptext5 {
+  visibility: visible;
+  cursor: pointer;
+}
+
+.profitsplittooltiptext1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 28%;
+  margin-left: -60px;
+}
+.profitsplittooltiptext2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 86%;
+  left: 20%;
+  margin-left: -60px;
+}
+.profitsplittooltiptext3 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 73%;
+  left: 28%;
+  margin-left: -60px;
+}
+.profitsplittooltiptext4 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+
+  bottom: 60%;
+  left: 20%;
+
+  margin-left: -60px;
+}
+.profitsplittooltiptext5 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 46%;
+  left: 45%;
+  margin-left: -60px;
+}
+
+.pipcalcinfo1:hover .profitsplittooltiptext1 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo2:hover .profitsplittooltiptext2 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo3:hover .profitsplittooltiptext3 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo4:hover .profitsplittooltiptext4 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo5:hover .profitsplittooltiptext5 {
+  visibility: visible;
+  cursor: pointer;
+}
+
+.compoundsec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.drawdowntiptext1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 28%;
+  margin-left: -60px;
+}
+.drawdowntiptext2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 82%;
+  left: 35%;
+
+  margin-left: -60px;
+}
+.drawdowntiptext3 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 64%;
+  left: 25%;
+  margin-left: -60px;
+}
+.drawdowntiptext4 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+
+  bottom: 69%;
+  left: 76%;
+
+  margin-left: -60px;
+}
+.drawdowntiptext5 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 54%;
+  left: 45%;
+  margin-left: -60px;
+}
+.pipcalcinfo1:hover .drawdowntiptext1 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo2:hover .drawdowntiptext2 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo3:hover .drawdowntiptext3 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo4:hover .drawdowntiptext4 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo5:hover .drawdowntiptext5 {
+  visibility: visible;
+  cursor: pointer;
+}
+
+.compoundtiptext1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 28%;
+  margin-left: -60px;
+}
+.compoundtiptext2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 81%;
+  left: 54%;
+
+  margin-left: -60px;
+}
+.compoundtiptext3 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 69%;
+  left: 20%;
+  margin-left: -60px;
+}
+.compoundtiptext4 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+
+  bottom: 64%;
+  left: 61%;
+
+  margin-left: -60px;
+}
+.compoundtiptext5 {
+  visibility: hidden;
+  width: 120px;
+  background-color: #0a0a0a54;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 54%;
+  left: 45%;
+  margin-left: -60px;
+}
+.pipcalcinfo1:hover .compoundtiptext1 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo2:hover .compoundtiptext2 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo3:hover .compoundtiptext3 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo4:hover .compoundtiptext4 {
+  visibility: visible;
+  cursor: pointer;
+}
+.pipcalcinfo5:hover .compoundtiptext5 {
+  visibility: visible;
+  cursor: pointer;
+}
+
+.Btn div {
+  background-color: #359602;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.Btn a {
+  color: white;
+}
+
+.Landing {
+  box-sizing: border-box;
+  width: 80%;
+  height: -webkit-fill-available;
+  background: #fefefe;
+  border: 0.5px solid rgba(53, 150, 2, 0.25);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MuiBox-root a {
+  text-decoration: none;
+}
+
+.MuiBox-root a:hover {
+  text-decoration: none;
+  background: #359602;
+}
+
+.Landingheader {
+  padding: 0px 6px;
+  text-align: center;
+}
+
+.Landingheader h1 {
+  height: 59px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(3.3vw + 2.3vh + 1.3vmin);
+  line-height: 59px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.Landingheader p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* .Landingheader a {
+  font-size: 18px !important;
+  width: 155px !important;
+} */
+.landp {
+  width: 60%;
+  height: 59px;
+  left: 296px;
+  top: 151px;
+  font-family: "Author";
+  font-style: normal;
+  font-weight: 375;
+  font-size: 18px;
+  line-height: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.Landingheader h6 {
+  width: 60%;
+  height: 40px;
+  left: 296px;
+  top: 151px;
+  font-family: "Author";
+  font-style: normal;
+  font-weight: 375;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.landbtn {
+  width: 15%;
+  height: 50px;
+  background: #359602;
+  border-radius: 5px;
+  font-weight: 494;
+  margin: 10px 0px !important;
+  font-size: 16px !important;
+  line-height: 18px;
+}
+
+.classicbtns {
+  display: flex !important;
+  justify-content: space-between !important ;
+  width: 58% !important;
+}
+
+.classicbtns button {
+  width: 29%;
+  height: 46px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Author;
+  text-transform: none;
+  font-style: normal;
+}
+.classicbtns button:hover {
+  background: #359602;
+  color: white;
+}
+
+.classicp {
+  font-family: Author;
+  font-style: normal;
+  color: #000000;
+  font-weight: 494;
+  font-size: calc(0.9vw + 0.5vh + 0.5vmin);
+  line-height: 22px;
+}
+
+.accordion {
+  outline: none;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 5%;
+}
+.accordion p {
+  font-size: 16px;
+}
+
+.accordion__heading {
+  width: 33%;
+  flex-shrink: 0;
+  color: black;
+  font-size: 140% !important;
+}
+
+.accordion__btn {
+  color: #359602;
+  cursor: pointer;
+  background: #359602 !important;
+  border-radius: 5px;
+  text-transform: capitalize !important;
+  width: 155px !important;
+  height: 52px;
+  font-size: 18px !important;
+}
+
+.agreement {
+  margin-left: 7%;
+  margin-top: 5%;
+  font-size: 16px;
+  font-weight: 494;
+}
+
+.agreementbtn {
+  font-size: 15px !important;
+  text-transform: none !important;
+  width: 25%;
+  height: 57px;
+  background: #359602 !important;
+}
+
+.affTable {
+  font-size: 16px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .Landingheader a {
+    font-size: 16px !important;
+    width: 90px !important;
+  }
+  .affbar {
+    width: 70% !important;
+  }
+  .GetAccbtn {
+    padding: 5px 8px !important;
+    width: 145px !important;
+    height: 48px;
+    background-color: #1d4353 !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+    font-size: calc(0.4rem + 0.5vw) !important;
+    line-height: 18px !important;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+  }
+
+  .Tab1 {
+    font-size: 16px !important;
+  }
+
+  .AffiliateMain {
+    width: 100% !important;
+  }
+  .css-j7qwjs {
+    flex-direction: row;
+  }
+  .App {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Landingheader h1 {
+    height: 33px;
+    padding: 15px 0px;
+  }
+  .landp {
+    width: 95%;
+    height: 23%;
+    font-size: 18px;
+  }
+  .landbtn {
+    height: inherit;
+    padding: 5px 0px;
+    font-size: 16px !important;
+    width: inherit;
+  }
+  .classicp {
+    font-size: 16px;
+  }
+  .classicbtns {
+    width: 90% !important;
+  }
+  .classicbtns button {
+    height: 40%;
+    min-width: max-content;
+  }
+  .sections {
+    height: 125px !important;
+  }
+  .accordion {
+    width: 100%;
+  }
+  .accordion__heading {
+    /* font-size: 12px; */
+    color: black;
+    font-weight: bold;
+    width: 35%;
+  }
+  .accordion p {
+    font-size: 16px;
+    place-self: center;
+  }
+
+  .accordion_grp_btn {
+    margin-right: 10px !important;
+  }
+  .accordion__btn {
+    width: 90% !important;
+    margin: 0px !important;
+    text-align: center;
+    font-size: 14px !important;
+    line-height: 113% !important;
+    text-transform: capitalize !important;
+  }
+
+  .checkbox {
+    transform: scale(0.7);
+    padding: 0px !important;
+  }
+  .agreementbtn {
+    width: 60%;
+    height: auto;
+  }
+  .GetAccbtn {
+    padding: 5px 8px !important;
+    width: auto !important;
+    height: auto;
+    font-size: 14px !important;
+  }
+  .dashmain {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .Accdetails {
+    width: 100% !important;
+  }
+  .AccText {
+    font-size: 14px !important;
+    margin-left: 8%;
+    font-weight: 494 !important;
+  }
+  .Accounts {
+    flex-wrap: wrap;
+  }
+  .css-heg063-MuiTabs-flexContainer {
+    justify-content: center;
+    padding-bottom: 5px;
+  }
+  .AccBtn {
+    flex-wrap: nowrap;
+    justify-content: center !important;
+    flex-direction: row !important;
+    width: 100%;
+  }
+  .css-lfwcke-MuiTabs-flexContainer {
+    flex-wrap: nowrap;
+    flex-direction: row !important;
+  }
+  .DashGraph {
+    flex-wrap: wrap;
+  }
+  .LineGraph2 {
+    width: 90%;
+    margin-bottom: 8%;
+  }
+  .FeedGraphs {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .FeedBarGraph {
+    width: 100%;
+  }
+  .Datesection {
+    width: 100%;
+  }
+  .LineGraph3 {
+    width: 100%;
+  }
+  .PayoutSection {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .Payoutbtn {
+    width: 140px !important;
+    font-size: 14px !important;
+  }
+  .PayoutBoxlink {
+    line-height: calc(1.4rem + 0.5vw);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+    border-left: none;
+    width: 100%;
+    margin-bottom: 10%;
+    font-size: 15px !important;
+    text-align: left !important;
+  }
+  .PayoutBoxlink1 {
+    line-height: calc(1.4rem + 0.5vw);
+    border-top: 1px solid rgba(0, 0, 0, 0.7);
+    border-left: none;
+    width: 65%;
+  }
+  .PayoutBoxlinksection {
+    margin-left: 0% !important;
+    align-items: center;
+  }
+  .CompoundingHeader {
+    margin-bottom: 10%;
+  }
+
+  .Landing {
+    width: 100%;
+  }
+  .PayoutSection {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .PayoutBox {
+    border-top: 1px solid rgba(0, 0, 0, 0.7);
+    border-left: none;
+    width: 90% !important;
+    margin-top: 5%;
+  }
+  .PayoutImg {
+    margin-top: inherit !important;
+  }
+  #simple-tabpanel-1 {
+    width: 100%;
+  }
+  .Carousel {
+    width: 100%;
+    height: 766px;
+  }
+  .PayoutSection2 {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .Accs {
+    font-size: 14px !important;
+  }
+  .Tab2 {
+    font-size: 14px !important;
+  }
+  .PayoutSection3 {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .affbar {
+    width: 175px !important;
+  }
+  .css-99l4xy-MuiSvgIcon-root {
+    font-size: 1.5rem !important;
+  }
+  .css-q2p6l4-MuiFormControl-root-MuiTextField-root .MuiInputBase-input {
+    font-size: 1rem !important;
+  }
+  .AffiText {
+    width: 100% !important;
+    text-align: center;
+    font-size: 16px !important;
+  }
+  .RefAffiText {
+    text-align: left;
+    font-size: calc(1.5vw + 1.5vh + 1.2vmin) !important;
+  }
+  .css-q2p6l4-MuiFormControl-root-MuiTextField-root {
+    width: 50% !important;
+  }
+  .HIWheader {
+    font-size: 28px !important;
+  }
+  .HIWvideo {
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .Landingheader h6 {
+    font-size: 16px;
+    width: 80%;
+  }
+  .HIWvideo1 {
+    width: 90% !important;
+    height: 100%;
+    padding-top: 20px;
+  }
+  .HIWvideoText {
+    width: 100% !important;
+    margin-left: 0px !important;
+    font-size: 16px !important;
+  }
+  .affTable {
+    font-size: 15px !important;
+  }
+
+  /* .AffiliateFoot {
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    border-radius: 3px;
+    /* height: auto; */
+  /* height: 300px !important; */
+  /* }
+  .AffiliateFootp {
+    font-size: 16px !important;
+  } */
+  /* .AffiliateFootblank {
+    width: 200px !important;
+    height: 200px !important;
+  } */
+  .pipcalc__container {
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .pipcalctexts {
+    width: 90%;
+    text-align: center;
+  }
+  .pipcalctexts p {
+    text-align: center;
+    width: 100%;
+  }
+  .pipcalctexts h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+  .deviceheader {
+    padding: 10px 0px;
+    font-size: 16px;
+  }
+  .pipcalcdevice {
+    width: 90%;
+  }
+  .ProfileMain {
+    width: 100% !important;
+  }
+  .ProfileAccountDetails {
+    width: 90% !important;
+    font-size: 24px !important;
+  }
+  .AffiCode {
+    text-align: center;
+  }
+  .ProfileAccountForm {
+    font-size: 16px !important;
+  }
+  .ProfileAccountInput {
+    font-size: 15px !important;
+  }
+  .AccHead1 {
+    font-size: 20px !important;
+  }
+  .ProfileInfoDetails {
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  .ProfileInfoDetails1 {
+    width: 100% !important;
+    font-size: 16px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .ProfileInfoDetails1a {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .App {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Landingheader a {
+    font-size: 16px !important;
+    width: 120px !important;
+    height: 50px !important;
+  }
+  .Tab1 {
+    padding: 8px 20px;
+  }
+  .Tab01 {
+    padding: 13.5px 20px;
+    line-height: 1.5;
+  }
+  .TabGrp1 {
+    width: 400px;
+  }
+  .Landing {
+    width: 90%;
+  }
+  .Landingheader h6 {
+    font-size: 17px;
+  }
+
+  .Landingheader {
+    font-size: 16px;
+  }
+
+  .landbtn {
+    height: 50px;
+    width: 120px;
+    font-size: 12px;
+  }
+  .landp {
+    font-size: 89%;
+    width: 65%;
+  }
+  .accordion__heading {
+    font-size: 120% !important;
+  }
+  .accordion p {
+    font-size: 16px;
+  }
+  .accordion__text {
+    line-height: 4.5 !important;
+  }
+  .accordion__btn {
+    text-transform: capitalize !important;
+    text-align: center;
+    width: 90% !important;
+    font-size: 16px !important;
+    margin: 0px 23px !important;
+    padding: 0px !important;
+  }
+  .classicbtns button {
+    height: auto;
+  }
+  .agreementbtn {
+    width: 35%;
+  }
+  .Tab2 {
+    min-width: calc(0.9vw + 5.4vh + 22.5vmin) !important;
+  }
+  .DashGraph {
+    flex-wrap: wrap;
+  }
+  .LineGraph2 {
+    width: 90%;
+    margin-bottom: 8%;
+  }
+  #simple-tabpanel-0 {
+    width: 85%;
+  }
+  #simple-tabpanel-1 {
+    width: 85%;
+  }
+  .Accs {
+    min-height: 32px !important;
+  }
+  .GetAccbtn {
+    padding: 5px 8px !important;
+    font-size: 14px !important;
+    height: 35px;
+    width: 178px !important;
+  }
+
+  .Payoutbtn {
+    width: 160px !important;
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .PayoutBoxlink {
+    line-height: calc(1.4rem + 0.5vw);
+    font-size: 16px;
+  }
+  .PayoutBoxlink1 {
+    line-height: calc(1.4rem + 0.5vw);
+  }
+  .PayoutSection {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .PayoutBox {
+    border-top: 1px solid rgba(0, 0, 0, 0.7);
+    border-left: none;
+    width: 90% !important;
+    margin-top: 5%;
+  }
+  .PayoutImg {
+    margin-top: inherit !important;
+  }
+  .Carousel {
+    width: 100%;
+    height: 766px;
+  }
+  .RefText {
+    font-size: calc(0.9vw + 0.9vh + 0.9vmin);
+    text-align: center;
+  }
+  .AffiCode {
+    text-align: center;
+  }
+  .Refcodefield {
+    width: calc(0.9vw + 5.4vh + 22.5vmin) !important;
+  }
+  .affbar {
+    width: 200px !important;
+  }
+  .pipcalctexts h2 {
+    font-size: calc(1vw + 1vh + 2vmin);
+    width: 110% !important;
+  }
+  .deviceheader {
+    font-size: 16px;
+    padding: 10px 0px;
+    line-height: 270%;
+  }
+  .FeedGraphs {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .FeedBarGraph {
+    width: 100%;
+  }
+  .LineGraph3 {
+    width: 100%;
+  }
+  .labelsigh {
+    display: flex;
+    font-size: 16px;
+    padding-bottom: 4px;
+    align-items: center;
+  }
+  .ProfileMain {
+    width: 100% !important;
+  }
+  .ProfileAccountDetails {
+    width: 90% !important;
+    font-size: 24px !important;
+  }
+  .ProfileAccountForm {
+    font-size: 16px !important;
+  }
+  .ProfileInfoDetails1 > label {
+    font-size: 16px !important;
+  }
+
+  .ProfileAccountInput {
+    font-size: 15px !important;
+  }
+  .ProfileInfoDetails {
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  .ProfileInfoDetails1 {
+    width: 100% !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 901) and (max-width: 1440px) {
+  .PayoutBoxlinksection {
+    align-items: center;
+    width: 170px !important;
+  }
+  .accordion__btn {
+    font-size: 18px !important;
+    width: 155px !important;
+  }
+  .affbar {
+    width: 70% !important;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  .accordion__btn {
+    font-size: 18px !important;
+    width: 155px !important;
+    height: 50px !important;
+  }
+  .Tab1 {
+    max-width: 100% !important;
+  }
+  .TabGrp1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .BarGraph1 {
+    /* max-width: 100% !important; */
+    width: 35%;
+  }
+  .LineGraph2 {
+    max-width: 100% !important;
+    width: 50%;
+  }
+  .FeedBarGraph {
+    /* max-width: 100% !important; */
+    width: 35%;
+  }
+  .LineGraph3 {
+    max-width: 100% !important;
+    width: 50%;
+  }
+  .deviceheader {
+    font-size: 16px;
+    padding: 10px 0px;
+    line-height: normal;
+  }
+  .classicbtns button {
+    height: 77px;
+  }
+  .agreementbtn {
+    height: 69px;
+  }
+  .checkbox {
+    transform: scale(2);
+  }
+  .landp {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 3840px) {
+  .FeedBarGraph {
+    max-width: 100% !important;
+    width: 368px;
+  }
+  .BarGraph1 {
+    max-width: 100% !important;
+    width: 368px;
+  }
+  .affbar {
+    width: 200px !important;
+  }
+}
